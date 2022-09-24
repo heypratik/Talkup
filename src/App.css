@@ -1,0 +1,75 @@
+* {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.myId {
+	border-radius: 5px;
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.idChild {
+	display: flex;
+	flex-direction: column;
+	margin: 0px 20px;
+}
+
+.video-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.video, video {
+	margin: 0px 20px;
+	border-radius: 10px;
+}
+
+.caller {
+	text-align: center;
+	color: #fff;
+}
+
+body {
+	background: #4776e6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #8e54e9, #4776e6); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#8e54e9,
+		#4776e6
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.activeCall {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 20px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icons {
+	cursor: pointer;
+	font-size: 25px;
+	margin: 0px 15px;
+	background-color: rgba(0, 0, 0, 0.456);
+	color: white;
+    border-radius: 10px;
+	padding: 10px;
+}
+
+.icons:hover {
+	background-color: rgb(255, 0, 0);
+
+}
